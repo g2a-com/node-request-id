@@ -1,0 +1,26 @@
+{
+  "name": "@g2a/request-id",
+  "version": "1.0.0-pre",
+  "description": "Library providing utility functions for manipulating and generating request ids",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/g2a-com/node-request-id"
+  },
+  "license": "UNLICENSED",
+  "main": "dist/index.js",
+  "typings": "typings/index.d.ts",
+  "scripts": {
+    "build": "rm -rf dist typings && tsc",
+    "test": "mocha -r ts-node/register test/**/*.spec.ts"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.1.2",
+    "@types/mocha": "^5.0.0",
+    "@types/node": "^10.0.0",
+    "chai": "^4.1.2",
+    "mocha": "^5.1.0",
+    "ts-node": "^6.0.0",
+    "tslint": "^5.9.1",
+    "typescript": "^3.0.3"
+  }
+}
