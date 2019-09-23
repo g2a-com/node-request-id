@@ -50,8 +50,17 @@
   },
   "devDependencies": {
     "@types/jest": "^24.0.1",
+    "@typescript-eslint/eslint-plugin": "^2.3.0",
+    "@typescript-eslint/parser": "^2.3.0",
     "jest": "^24.1.0",
+    "standard": "^14.3.1",
     "ts-jest": "^23.10.5",
     "typescript": "^3.0.3"
+  },
+  "standard": {
+    "parser": "@typescript-eslint/parser",
+    "plugins": [
+      "@typescript-eslint/eslint-plugin"
+    ]
   }
 }
