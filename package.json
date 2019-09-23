@@ -6,7 +6,7 @@
     "type": "git",
     "url": "https://github.com/g2a-com/node-request-id"
   },
-  "license": "UNLICENSED",
+  "license": "MIT",
   "files": [
     "dist/*",
     "src/*",
