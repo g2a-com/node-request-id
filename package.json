@@ -19,6 +19,21 @@
     "prepack": "npm run build",
     "test": "jest"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.ts": [
+      "standard --fix",
+      "git add"
+    ],
+    "package.json": [
+      "sort-package-json",
+      "git add"
+    ]
+  },
   "jest": {
     "collectCoverage": true,
     "coverageThreshold": {
@@ -55,6 +70,7 @@
     "husky": "^3.0.5",
     "jest": "^24.1.0",
     "lint-staged": "^9.3.0",
+    "sort-package-json": "^1.22.1",
     "standard": "^14.3.1",
     "ts-jest": "^23.10.5",
     "typescript": "^3.0.3"
@@ -63,17 +79,6 @@
     "parser": "@typescript-eslint/parser",
     "plugins": [
       "@typescript-eslint/eslint-plugin"
-    ]
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "*.ts": [
-      "standard --fix",
-      "git add"
     ]
   }
 }
