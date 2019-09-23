@@ -1,7 +1,13 @@
-# Change Log
+# Changelog
 
-All notable changes to this project will be documented in this file.
-See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+## 1.2.0 (2019-09-23)
+
+
+### Features
+
+* **request-id:** initial version ([d01e451](https://github.com/g2a-com/node-request-id/commit/d01e451))
 
 ## [1.1.0](https://github.com/g2a-com/node-request-id/compare/v1.0.1...v1.1.0) (2019-04-24)
 
